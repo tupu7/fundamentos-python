@@ -18,5 +18,5 @@ for i in a:
     if i not in lista_sin_duplicados:
         lista_sin_duplicados.append(i)
 
-print(lista_sin_duplicados)
+print(" ".join(map(str, lista_sin_duplicados)))
     

@@ -9,6 +9,11 @@ Estado:       [ Terminado ]
 '''
 a = list(map(int, input("Ingrese un número: ")))
 b = sum(a)
+
+print("Proceso de reducción para {}:".format(''.join(map(str, a))))
+print("{} = {}".format(''.join(map(str, a)), b))
 while b >= 10:
+    b_ = str(b)
     b = (sum(map(int, str(b))))
-print(b)
+    print("{} = {}".format(b_, b))
+print(f"El resultado final es : {b}")
