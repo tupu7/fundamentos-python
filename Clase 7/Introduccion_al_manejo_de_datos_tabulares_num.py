@@ -106,19 +106,9 @@ Hogar 4: 66.1, Hogar 10: 62.59, Hogar 2: 77.1
 #6. Si el hogar 3 aumenta su consumo en un 10% cada día,
 #  ¿cuál sería su nuevo consumo total semanal?
 
+nuevo_3 = np.sum(consumo[2]*1.1)
+print(nuevo_3)
 
-a = 14.0  
-nuevo_consumo = [a]
-
-
-for i in range(6):
-    nuevo_consumo.append(nuevo_consumo[-1] * 1.10)
-
-
-nuevo_consumo = np.array(nuevo_consumo)
-consumo_total_semanal = np.sum(nuevo_consumo)
-
-print("Nuevo consumo total semanal:", consumo_total_semanal)
+# print("Nuevo consumo total semanal:", consumo_total_semanal)
 '''
-Si el hogar 3 aumenta su consumo en un 10% cada día tendría un nuevo consumo semanal total de aproximadamente de 132.82$
-'''
+Si el hogar 3 aumenta su consumo en un 10% cada día tendría un nuevo consumo semanal total de aproximadamente de 114.95$'''
