@@ -1,0 +1,61 @@
+{
+    "estudiantes": [
+        {
+            "nombre": "David",
+            "materias": {
+                "Matematicas": [
+                    8.6,
+                    9.7,
+                    9.88,
+                    9.6,
+                    8.0,
+                    9.0
+                ],
+                "Fisica": [],
+                "Progra": [],
+                "IntroInge": [],
+                "DP": []
+            }
+        },
+        {
+            "nombre": "Violeta",
+            "materias": {
+                "Matematicas": [],
+                "Fisica": [],
+                "Progra": [],
+                "IntroInge": [],
+                "DP": []
+            }
+        },
+        {
+            "nombre": "marcio",
+            "materias": {
+                "Matematicas": [],
+                "Fisica": [],
+                "Progra": [],
+                "IntroInge": [],
+                "DP": []
+            }
+        },
+        {
+            "nombre": "Marcio",
+            "materias": {
+                "Matematicas": [],
+                "Fisica": [],
+                "Progra": [],
+                "IntroInge": [],
+                "DP": []
+            }
+        },
+        {
+            "nombre": "mejo",
+            "materias": {
+                "Matematicas": [],
+                "Fisica": [],
+                "Progra": [],
+                "IntroInge": [],
+                "DP": []
+            }
+        }
+    ]
+}
